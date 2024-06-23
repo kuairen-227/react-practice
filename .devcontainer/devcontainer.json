@@ -1,0 +1,21 @@
+{
+    "name": "React-App",
+    "dockerComposeFile": [
+      "docker-compose.yml"
+    ],
+    "service": "app",
+    "workspaceFolder": "/app",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "esbenp.prettier-vscode",
+          "dsznajder.es7-react-js-snippets"
+        ],
+        "settings": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        }
+      }
+    },
+    "postStartCommand": "yarn install && yarn start"
+  }
+  
