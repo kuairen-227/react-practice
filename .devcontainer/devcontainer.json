@@ -1,15 +1,14 @@
 {
   "name": "react-practice",
-  "dockerComposeFile": [
-    "docker-compose.yml"
-  ],
+  "dockerComposeFile": ["docker-compose.yml"],
   "service": "app",
   "workspaceFolder": "/react-practice",
   "customizations": {
     "vscode": {
       "extensions": [
         "esbenp.prettier-vscode",
-        "dsznajder.es7-react-js-snippets"
+        "dsznajder.es7-react-js-snippets",
+        "streetsidesoftware.code-spell-checker"
       ],
       "settings": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
