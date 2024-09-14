@@ -4,5 +4,7 @@
   // language - current active spelling language
   "language": "en",
   // words - list of words to be always considered correct
-  "words": ["headlessui", "tailwindcss"]
+  "words": ["clsx", "devcontainer", "headlessui", "tailwindcss"],
+  // a list of globs to specify which files are to be ignored.
+  "ignorePaths": [".devcontainer/devcontainer.json"]
 }
