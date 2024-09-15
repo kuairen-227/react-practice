@@ -1,8 +1,6 @@
 {
   "name": "react-practice",
-  "dockerComposeFile": [
-    "docker-compose.yml"
-  ],
+  "dockerComposeFile": ["docker-compose.yml"],
   "service": "react-practice",
   "workspaceFolder": "/react-practice",
   "customizations": {
@@ -10,6 +8,7 @@
       "extensions": [
         "esbenp.prettier-vscode",
         "dsznajder.es7-react-js-snippets",
+        "bradlc.vscode-tailwindcss",
         "streetsidesoftware.code-spell-checker",
         "vivaxy.vscode-conventional-commits"
       ],
