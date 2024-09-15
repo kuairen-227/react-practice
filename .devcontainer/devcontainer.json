@@ -1,7 +1,9 @@
 {
   "name": "react-practice",
-  "dockerComposeFile": ["docker-compose.yml"],
-  "service": "app",
+  "dockerComposeFile": [
+    "docker-compose.yml"
+  ],
+  "service": "react-practice",
   "workspaceFolder": "/react-practice",
   "customizations": {
     "vscode": {

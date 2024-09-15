@@ -1,5 +1,5 @@
 services:
-  app:
+  react-practice:
     image: mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm
     ports:
       - 3000:3000
