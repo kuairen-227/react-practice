@@ -10,7 +10,8 @@
       "extensions": [
         "esbenp.prettier-vscode",
         "dsznajder.es7-react-js-snippets",
-        "streetsidesoftware.code-spell-checker"
+        "streetsidesoftware.code-spell-checker",
+        "vivaxy.vscode-conventional-commits"
       ],
       "settings": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
